@@ -1,0 +1,180 @@
+% \documentclass[PhD]{nitgoathesis}
+%\documentclass[MTech]{nitgoathesis}
+\documentclass[BTech]{nitgoathesis}
+\usepackage{times}
+ \usepackage{t1enc}
+
+\usepackage{graphicx}
+\usepackage{epstopdf}
+%\usepackage[hypertex]{hyperref} % hyperlinks for references.
+\usepackage{amsmath} % easier math formulae, align, subequations \ldots
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+
+\title{ NAME OF THE DISSERTATION TO BE ENTERED}
+
+\author{Krithika  \vspace{10pt} (10CS009)}
+\author{Krithika  \vspace{10pt} (10CS009)}
+\author{Krithika  \vspace{10pt} (10CS009)}
+\author{Krithika  \vspace{10pt} (10CS009)}
+
+\date{MONTH 2014}
+\department{COMPUTER SCIENCE AND ENGINEERING}
+
+%\nocite{*}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Certificate
+\certificate
+
+\vspace*{0.5in}
+
+\noindent This is to certify that the work contained in this Dissertation entitled ``Name of the Dissertation Title is to be Entere'' 
+submitted by the group members Mr. XXXXXX (Roll. No: XXXXXXXXX), Mr. XXXXXXX (Roll No: XXXXXX) and Mr. XXXXXX, (Roll. No: XXXXXX) to the 
+Department of Computer Science and Engineering, National Institute of Technology Goa, for the partial fulfilment of the requirements for 
+the degree of Bachelor of Technology in Computer Science and Engineering. They have carried out their research work under my 
+supervision. This work has not been submitted else- where for the award of any other degree or diploma.\newline
+\noindent The Dissertation, in my opinion, has reached the standard fulfilling of the requirements for the degree of Bachelor of 
+Technology in Computer Science and Engineering in accordance with the regulations of the Institute.
+
+\vspace*{1.5in}
+
+\begin{singlespacing}
+\hspace*{2.8in}
+\parbox{3in}{
+\noindent {Name of the Guide} \\
+\noindent Designation \\ 
+\noindent Department Name \\
+\noindent National Institute of Technology Goa-403401\\
+\noindent  \\
+} 
+% \hspace*{2.8in}
+% \parbox{3in}{
+% \noindent {Name of the Guide} \\
+% \noindent Designation \\ 
+% \noindent Department Name \\
+% \noindent National Institute of Technology Goa-403401\\
+% \noindent  \\
+% } 
+\end{singlespacing}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acknowledgements
+\acknowledgements
+
+Thanks to all those who made \TeX\ and \LaTeX\ what it is today.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Abstract
+
+\abstract
+
+% \noindent KEYWORDS: \hspace*{0.5em} \parbox[t]{4.4in}{\LaTeX ; Thesis;
+%   Style files; Format.}
+
+% \vspace*{24pt}
+% 
+ \noindent  A \LaTeX\ class along with a simple template thesis are
+provided here.  These can be used to easily write a thesis suitable
+for submission at NIT Goa.  The class provides options to format
+PhD, M.Tech.\ and B.Tech.\ thesis.  It also allows one to write a
+synopsis using the same class file.  Also provided is a BIB\TeX\ style
+file that formats all bibliography entries as per the IEEE format.
+
+The formatting is as  per the current
+institute guidelines.
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table of contents etc.
+
+\begin{singlespace}
+\tableofcontents
+\thispagestyle{empty}
+
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+\end{singlespace}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Abbreviations
+\abbreviations
+
+\noindent 
+\begin{tabbing}
+xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
+\textbf{NITG}   \> National Institute of Technology Goa \\
+\textbf{RTFM} \> Read the Fine Manual \\
+\end{tabbing}
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Notation
+
+\chapter*{\centerline{NOTATION}}
+\addcontentsline{toc}{chapter}{NOTATION}
+
+\begin{singlespace}
+\begin{tabbing}
+xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
+\textbf{$r$}  \> Radius, $m$ \\
+\textbf{$\alpha$}  \> Angle of thesis in degrees \\
+\textbf{$\beta$}   \> Flight path in degrees \\
+\end{tabbing}
+\end{singlespace}
+
+\pagebreak
+\clearpage
+
+% The main text will follow from this point so set the page numbering
+% to arabic from here on.
+\pagenumbering{arabic}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Introduction.
+
+\chapter{INTRODUCTION}
+\label{chap:intro}
+\section{Sections}
+This is how you have to write citation \cite{DBLP:journals/tit/IngemarssonTW82}
+\appendix
+
+\chapter{A SAMPLE APPENDIX}
+
+Just put in text as you would into any chapter with sections and
+whatnot.  Thats the end of it.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography.
+
+\begin{singlespace}
+  \bibliography{Sai-myfile}
+\end{singlespace}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% List of papers
+
+% \listofpapers
+
+% \begin{enumerate}  
+% \item Authors....  \newblock
+%  Title...
+%   \newblock {\em Journal}, Volume,
+%   Page, (year).
+% \end{enumerate}  
+
+\end{document}
